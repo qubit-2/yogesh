@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  color: #333;
+  text-align: center;
+  margin-top: 40px;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+  margin: 20px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  width: calc(33.33% - 20px);
+}
+
+.project img {
+  width: 100%;
+}
+
+.project h3 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #333;
+}
+
+.project p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.contact {
+  
+}
+
+.contact h2 {
+  
+}
+
+.contact p {
+  
+}
+
+.contact form {
+  
+}
+
+.contact input,
+.contact textarea {
+  
+}
+
+.contact button {
+  
+}
+
+footer {
+  
+}
+
+footer p {
+  
+}
