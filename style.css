@@ -10,17 +10,17 @@
 }
 
 h1 {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 48px;
-  color: #333;
+  color: #fff;
   text-align: center;
   margin-top: 40px;
 }
 
 p {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  color: #333;
+  color: #fff;
   line-height: 1.5;
   margin: 20px;
 }
@@ -40,22 +40,22 @@ p {
 }
 
 .project h3 {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  color: #333;
+  color: #fff;
 }
 
 .project p {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  color: #333;
+  color: #fff;
 }
 
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
+  background-color: #fff;
+  color: #333;
 }
 
 .contact {
@@ -89,4 +89,37 @@ footer {
 
 footer p {
   
+}
+
+/* Physics-related design */
+
+body {
+  background-image: url('space.jpg'); /* A space image as the background */
+  background-size: cover; /* Cover the whole screen */
+}
+
+h1::after {
+    content:""; /* Create a pseudo-element */
+    display:block; /* Make it a block element */
+    width:100%; /* Set the width to full */
+    height:5px; /* Set the height to thin */
+    background:#fff; /* Set the background to white */
+    margin-top:10px; /* Add some space above */
+    animation-name:bounce; /* Use the bounce animation */
+    animation-duration:2s; /* Set the duration to two seconds */
+    animation-iteration-count:infinite; /* Repeat infinitely */
+    animation-timing-function:cubic-bezier(0.28,0.84,0.42,1); /* Use a custom easing function */
+}
+
+@keyframes bounce { /* Define the bounce animation */
+    from { transform:translateY(0); } /* Start from the original position */
+    to { transform:translateY(-20px); } /* Move up by -20 pixels */
+}
+
+.project img { 
+    transition:transform .5s; /* Add a transition effect to the image */
+}
+
+.project:hover img { 
+    transform:scale(1.1); /* Scale up the image by 10% when hovered */
 }
