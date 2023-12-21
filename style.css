@@ -1,19 +1,18 @@
+/* Basic styling */
 body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
 }
 
 header {
     background-color: #333;
     color: #fff;
     padding: 20px;
-    text-align: center;
 }
 
 header h1 {
-    margin-bottom: 10px;
+    font-size: 40px;
 }
 
 nav ul {
@@ -32,20 +31,24 @@ a {
     text-decoration: none;
 }
 
-main {
-    padding: 20px;
-}
-
-.hero {
+/* Hero section styling */
+.hero-section {
+    background-image: url("hero-image.jpg"); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
-.hero h2 {
-    margin-bottom: 20px;
+.hero-text {
+    color: #fff;
 }
 
-.hero button {
-    background-color: #333;
+.cta-button {
+    background-color: #f00;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -53,14 +56,5 @@ main {
     cursor: pointer;
 }
 
-.features ul {
-    list-style: disc;
-    margin-left: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
+/* Other sections styling */
+/* Add styling for events, gallery, and footer sections as needed */
