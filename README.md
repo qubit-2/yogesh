@@ -1,2 +1,2 @@
-# yogesh.github.io
-Website
+# Website
+A website with informative blog
