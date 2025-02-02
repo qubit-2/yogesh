@@ -1,0 +1,31 @@
+vCard - Personal Portfolio
+
+# sidebar
+
+alt = Richard hanrickasd
+Yogesh
+Graduate student
+
+Show Contacts
+
+Email
+yogeshwaran.rar@gmail.com
+
+Phone
++91 8870310125
+
+Birthday
+
+
+Location
+India
+
+# navbar
+
+About
+
+# about
+
+About me
+
+    A passionate graduate student at HRI with a focus on quantum information and science, exploring cutting-edge advancements in the field. Driven to push the boundaries of quantum technologies through interdisciplinary research and innovation.
